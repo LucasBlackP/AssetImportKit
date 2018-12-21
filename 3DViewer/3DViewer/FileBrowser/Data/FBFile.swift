@@ -184,6 +184,8 @@ public enum FBFileType: String {
     case MDL = "mdl"
     /// ASE file
     case ASE = "ase"
+    /// GLTF file
+    case GLTF = "gltf"
     /// Any file
     case Default = "file"
     
@@ -200,7 +202,7 @@ public enum FBFileType: String {
         case .JPG, .PNG, .GIF: fileName = "image@2x.png"
         case .PDF: fileName = "pdf@2x.png"
         case .ZIP: fileName = "zip@2x.png"
-        case .OBJ, .DAE, .FBX, .SCN, .MD3, .ZGL, .XGL, .WRL, .STL, .SMD, .RAW, .Q3S, .Q3O, .PLY, .XML, .MESH, .OFF, .NFF, .M3SD, .MD5ANIM, .MD5MESH, .MD2, .IRR, .IFC, .DXF, .COB, .BVH, .B3D, .AC, .BLEND, .HMP, ._3DS, ._3D, .X, .TER, .MAX, .MS3D, .MDL, .ASE: fileName = "scene@2x.png"
+        case .OBJ, .DAE, .FBX, .SCN, .MD3, .ZGL, .XGL, .WRL, .STL, .SMD, .RAW, .Q3S, .Q3O, .PLY, .XML, .MESH, .OFF, .NFF, .M3SD, .MD5ANIM, .MD5MESH, .MD2, .IRR, .IFC, .DXF, .COB, .BVH, .B3D, .AC, .BLEND, .HMP, ._3DS, ._3D, .X, .TER, .MAX, .MS3D, .MDL, .ASE, .GLTF: fileName = "scene@2x.png"
         default: fileName = "file@2x.png"
         }
         let file = UIImage(named: fileName, in: bundle, compatibleWith: nil)

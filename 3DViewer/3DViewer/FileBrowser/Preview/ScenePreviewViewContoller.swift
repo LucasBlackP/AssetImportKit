@@ -142,7 +142,7 @@ class ScenePreviewViewContoller: UIViewController, CAAnimationDelegate {
                     // If multiple animations exist, load the first animation
                     if let numberOfAnimationKeys = animationKeys?.count {
                         if numberOfAnimationKeys > 0 {
-                            let settings = AssetImporterAnimSettings()
+                            var settings = AssetImporterAnimSettings()
                             settings.repeatCount = 5
                             
                             let key = animationKeys![0] as! String
