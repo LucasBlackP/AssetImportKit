@@ -22,8 +22,8 @@ The library supports:
 
 #### Supported file formats ####
 
-AssetImportKit supports the following file formats:
-"dae", "fbx", "obj", "scn", "md3", "zgl", "xgl", "wrl", "stl", "smd", "raw", "q3s", "q3o", "ply", "xml", "mesh", "off", "nff", "m3sd", "md5anim", "md5mesh", "md2", "irr", "ifc", "dxf", "cob", "bvh", "b3d", "blend", "hmp", "3ds", "3d",  "ms3d", "mdl", "ase", "gltf".
+AssetImportKit supports the following file formats: `3DS`, `3MF`, `COLLADA`, `FBX`, `GLTF`, `OBJ` `STL`.
+If you want to add support of all `Assimp` importers, please look at my [`assimp-for-ios build script`](https://github.com/eugenebokhan/Assimp-iOS-Light-Superbuild).
 
 ## Demos
 
